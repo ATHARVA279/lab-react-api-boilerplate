@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+}
+
+.book{
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: black;
+  margin: 20px 0;
+  border-bottom: 1px dotted white;
+}
+
+.book>img{
+  margin: 15px 0 ;
+  height: 200px;
+}
+
+h1{
+  color: red;
+  font-size: 40px;
+}
+
+h3{
+  color: blueviolet;
+  font-size: 30px;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+}
